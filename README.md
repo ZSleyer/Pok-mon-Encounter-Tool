@@ -6,8 +6,8 @@ Klicke auf „Pokémon Verwalten“ & lege für das Pokémon, welches du Hunten 
 Kehre Anschließend zur Hauptansicht zurück und wähle dieses aus.
 Du kannst nun mit den Buttons die Encounter Zahl beinflussen oder Hotkeys verwenden.
 
-+ -> +1 Enocunter
-- -> -1 Encounter
+- (+) -> +1 Enocunter
+- (-) -> -1 Encounter
 ALT+R -> Reset
 
 Webseite: https://ZSley.de/PKMNET
