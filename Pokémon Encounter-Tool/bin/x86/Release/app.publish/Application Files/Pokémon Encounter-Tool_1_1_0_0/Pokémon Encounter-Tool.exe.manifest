@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Pokémon Encounter-Tool.exe" version="1.1.0.0" publicKeyToken="34002643d7fea5bb" language="de-DE" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Pokéball_Traumwelt.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Pokémon Encounter-Tool" version="1.1.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Pokémon Encounter-Tool.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialSkin.dll" size="587776">
+      <assemblyIdentity name="MaterialSkin" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uYed8V6CxS6RZscfexd8V71MgomCGmWp0/Uiiz9ga04=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Pokémon Encounter-Tool.exe" size="131504">
+      <assemblyIdentity name="Pokémon Encounter-Tool" version="1.1.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Vnz6J1qq/CRNwctEN/P90Vt3x8K9JQ+GI2OBAZr3MZo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MaterialSkin.dll" size="587776">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uYed8V6CxS6RZscfexd8V71MgomCGmWp0/Uiiz9ga04=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pokéball_Traumwelt.ico" size="32038">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nkHRglXmWGdlA7WN21SKGARZpI2p3s+KuELDe8dfg3k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pokémon Encounter-Tool.exe.config" size="257">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PTyauSAQSgXWI5d0AfO/4V5pBOGDsm0aZWaNpEjlrK8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=ZSLEYER\chadi" issuerKeyHash="44b65e0bdfd12d5ce0b14da3045dc468e1915c78" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Mwk2xELAc9jIwy2gQrNrQEgXopawuIe8WLn46K6xNKU=</DigestValue></Reference></SignedInfo><SignatureValue>cxbRhpqzMuiML3ZVSJbHxNR+hg3S2RTsegorDDmFTaD8E/H1ee13MCDrP57En0lIyFLQOM3qhE6F5CxLTcCkHR6+ASsEXQXzRhSy0hLDetLy3cSLS+6A2ovI0etDaGEolIb9t6RWFKKLflnc6cxQ0OPvUe7mln8GB/W9UFEJL3c=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pVpVlyMDUSRJGG+QSkV4bYcYxRzJptglnvb/pqrk+Idx0H/xheij6AUUfAy5ah78/D2oZE6Lb9VtV/B+HdW9+Mktij89FsP2KyxDLPadRzrdBnQ309Y9dthLytYeiUPBYrgNePxrBzZEnnA4J/CuvjFlB7225tRUfeyD3/VMljk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a534b1aee8f8b958bc87b8b096a21748406bb342a02dc3c8d873c042c4360933" Description="" Url=""><as:assemblyIdentity name="Pokémon Encounter-Tool.exe" version="1.1.0.0" publicKeyToken="34002643d7fea5bb" language="de-DE" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ZSLEYER\chadi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BtgGc2nyczK82dVqC635pB0mDhhsRv2kZWNQcmGeY0Y=</DigestValue></Reference></SignedInfo><SignatureValue>fUrONQQ12tcD5+Gtk42+mbQmf8q9J5AXY17+jrqupOFbA1E0UmqPZTaZ6NNSjlrdz09XrMmk692CI70R6vpbMJPwG9+yFFn+9TjbCeKNsdq02TuErynv2FuzscipyysndwP58NMdZJFOcdqpP5wZnsCFuCMdRaCajxeh28v/ylQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pVpVlyMDUSRJGG+QSkV4bYcYxRzJptglnvb/pqrk+Idx0H/xheij6AUUfAy5ah78/D2oZE6Lb9VtV/B+HdW9+Mktij89FsP2KyxDLPadRzrdBnQ309Y9dthLytYeiUPBYrgNePxrBzZEnnA4J/CuvjFlB7225tRUfeyD3/VMljk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQVv9ohUGZ5q1OlzSSKHaIJzANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAWgBTAEwARQBZAEUAUgBcAGMAaABhAGQAaTAeFw0xNzAxMTkyMjAxMTBaFw0xODAxMjAwNDAxMTBaMCUxIzAhBgNVBAMeGgBaAFMATABFAFkARQBSAFwAYwBoAGEAZABpMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQClWlWXIwNRJEkYb5BKRXhthxjFHMmm2CWe9v+mquT4h3HQf/GF6KPoBRR8DLlqHvz8PahkTotv1W1X8H4d1b34yS2KPz0Ww/YrLEMs9p1HOt0GdDfT1j122EvK1h6JQ8FiuA14/GsHNkSecDgn8K6+MWUHvbbm1FR97IPf9UyWOQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAHuPk8mhdVgQ2eoqTEmce5Ln5Qskpzxr3Ba8QGq+UrPJBPyLHf8TxTA/cPKiXr4Fy4PTv6ATuMWRwW0sC8ECT64QMlxmntWx716HAhgASEn3yx1SW/422SgHYxrVpomZpveu6hOYF54/O9ubRalg5qaOk17Hgo06brYOHc9p+pgs</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

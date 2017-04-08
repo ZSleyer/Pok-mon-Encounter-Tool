@@ -1,0 +1,18 @@
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\bin\Debug\Pokémon Encounter-Tool.exe.config
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\bin\Debug\Pokémon Encounter-Tool.exe.manifest
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\bin\Debug\Pokémon Encounter-Tool.application
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\bin\Debug\Pokémon Encounter-Tool.exe
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\bin\Debug\Pokémon Encounter-Tool.pdb
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\bin\Debug\Pokémon Encounter-Tool.xml
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\bin\Debug\MaterialSkin.dll
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\obj\Debug\Pokémon_Encounter_Tool.Main.resources
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\obj\Debug\Pokémon_Encounter_Tool.Resources.resources
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\obj\Debug\Pokémon_Encounter_Tool.PKMNV.resources
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\obj\Debug\Pokémon Encounter-Tool.vbproj.GenerateResource.Cache
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\obj\Debug\Pokémon Encounter-Tool.TrustInfo.xml
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\obj\Debug\Pokémon Encounter-Tool.exe.manifest
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\obj\Debug\Pokémon Encounter-Tool.application
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\obj\Debug\Pokémon Encounter-Tool.exe
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\obj\Debug\Pokémon Encounter-Tool.xml
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\obj\Debug\Pokémon Encounter-Tool.pdb
+D:\chadi\Documents\Visual Studio 2015\Projects\Pokémon Encounter-Tool\Pokémon Encounter-Tool\obj\Debug\Pokémon Encounter-Tool.vbprojResolveAssemblyReference.cache
