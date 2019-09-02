@@ -11,5 +11,5 @@ Du kannst nun mit den Buttons die Encounter Zahl beinflussen oder Hotkeys verwen
 ALT+R -> Reset
 
 Webseite: https://ZSley.de/PKMNET
-Twitter: https://Twitter.com/ZSleyerDE
+Twitter: https://Twitter.com/ZSleyer
 YouTube: https://YouTube.com/ZSleyer
